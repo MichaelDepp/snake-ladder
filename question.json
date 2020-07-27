@@ -1,0 +1,402 @@
+[
+{
+    "question" : "What is operating system?",
+    "a": "Collection of programs that manages hardware resources",
+    "b": "Link to interface the hardware and application program",
+    "c": "System service provider to the application program",
+    "d": "All of the mentioned",
+    "answer": "d"
+},
+{
+    "question" : "To access the services of operating system, the interface is provided by the:",
+    "a": "System calls",
+    "b": "API",
+    "c": "Library",
+    "d": "Assembly Instruction",
+    "answer": "a"
+},
+{
+    "question" : "Which one of the following is not true?",
+    "a": "Kernel is the program that constitues the central core of the operating system",
+    "b": "Kernel is the first part of operating system to load into memory during booting",
+    "c": "Kernel is made of various modules which can not be loaded in running operating system",
+    "d": "Kernel remains in the memory during the entire computer session",
+    "answer": "c"
+},
+{
+    "question" : "Which one of the following error will be handle by the operating system?",
+    "a": "Power failure",
+    "b": "Lack of paper in printer",
+    "c": "Connection failure in the network",
+    "d": "All of the mentioned",
+    "answer": "d"
+},
+{
+    "question" : "The main function of the command interpreter is:",
+    "a": "To get and execute the next user-specified command",
+    "b": "To provide the interface between the API and application program",
+    "c": "To handle the files in operating system",
+    "d": "None of the mentioned",
+    "answer": "a"
+},
+{
+    "question" : "By operating system, the resource management can be done via:",
+    "a": "Time division multiplexing",
+    "b": "Space division multiplexing",
+    "c": "Both (a) and (b)",
+    "d": "None of the mentioned",
+    "answer": "c"
+},
+{
+    "question" : "If a process fails, most operating system write the error information to a:",
+    "a": "Log file",
+    "b": "Another running process",
+    "c": "New file",
+    "d": "None of the mentioned",
+    "answer": "a"
+},
+{
+    "question" : "Which facility dynamically adds probes to a running system, both in user processes and in the kernel?",
+    "a": "DTrace",
+    "b": "DLocate",
+    "c": "DMAP",
+    "d": "DAdd",
+    "answer": "a"
+},
+{
+    "question" : "Which one of the following is NOT a real time operating system?",
+    "a": "VxWorks",
+    "b": "Windows CE",
+    "c": "RTLinux",
+    "d": "Palm OS",
+    "answer": "d"
+},
+{
+    "question" : "__________ is built directly on the hardware.",
+    "a": "Computer environment",
+    "b": "Application software",
+    "c": "Database system",
+    "d": "Operating system",
+    "answer": "d"
+},
+{
+    "question" : "Termination of a process can be due to?",
+    "a": "Fatal error",
+    "b": "Killed by another process",
+    "c": "Normal exit",
+    "d": "All of the mentioned",
+    "answer": "d"
+},
+{
+    "question" : "The operating system creates __________ from the physical computer.",
+    "a": "Virtual space",
+    "b": "Virtual computers",
+    "c": "Virtual device",
+    "d": "None of the mentioned",
+    "answer": "b"
+},
+{
+    "question" : "Which is the first program run on a computer when the computer boots up?",
+    "a": "Operating system",
+    "b": "Application software",
+    "c": "System software",
+    "d": "All of the mentioned",
+    "answer": "a"
+},
+{
+    "question" : "Which is the layer of a computer system between the hardware and the user program?",
+    "a": "Operating environment",
+    "b": "Operating system",
+    "c": "System environment",
+    "d": "None of the mentioned",
+    "answer": "b"
+},
+{
+    "question" : "The primary purpose of an operating system is:",
+    "a": "To make the most efficient use of the computer hardware",
+    "b": "To allow people to use the computer",
+    "c": "To keep systems programmers employed",
+    "d": "To make computers easier to use",
+    "answer": "a"
+},
+{
+    "question" : "What should be the extension to execute files?",
+    "a": "exe",
+    "b": "bat",
+    "c": "com",
+    "d": "All of the mentioned",
+    "answer": "d"
+},
+{
+    "question" : "Which file keeps commands to execute automatically when OS is started?",
+    "a": "command.com",
+    "b": "any batch file",
+    "c": "autoexec.bat",
+    "d": "config.sys",
+    "answer": "c"
+},
+{
+    "question" : "Which is NOT the function of the Operating System?",
+    "a": "Memory management",
+    "b": "Disk management",
+    "c": "Application management",
+    "d": "Virus protection",
+    "answer": "d"
+},
+{
+    "question" : "The Operating System manages:",
+    "a": "Memory",
+    "b": "Processes",
+    "c": "Disk and I/O devices",
+    "d": "All of the mentioned",
+    "answer": "d"
+},
+{
+    "question" : "The chunks of a memory are known as:",
+    "a": "Sector",
+    "b": "Offset",
+    "c": "Page",
+    "d": "Frame",
+    "answer": "d"
+},
+{
+    "question" : "Command Interpreter is also known as:",
+    "a": "Prompt",
+    "b": "Shell",
+    "c": "Command",
+    "d": "DOS Prompt",
+    "answer": "b"
+},
+{
+    "question" : "Which of the follow are System Programming Language?",
+    "a": "C",
+    "b": "PL/360",
+    "c": "Pascal",
+    "d": "All of mentioned",
+    "answer": "d"
+},
+{
+    "question" : "Which of the following resources must be protected by the Operating System?",
+    "a": "I/O",
+    "b": "Memory",
+    "c": "CPU",
+    "d": "All of mentioned",
+    "answer": "d"
+},
+{
+    "question" : "First-in-First-Out (FIFO) scheduling is:",
+    "a": "Non-preemptive scheduling",
+    "b": "Preemptive scheduling",
+    "c": "Fair share scheduling",
+    "d": "Deadline scheduling",
+    "answer": "a"
+},
+{
+    "question" : "Which of the following memory unit that processor can access more rapidly?",
+    "a": "Main memory",
+    "b": "Virtual memory",
+    "c": "Cache memory",
+    "d": "Read Only memory",
+    "answer": "c"
+},
+{
+    "question" : "Which one of the following is NOT the function of Operating System?",
+    "a": "Resource management",
+    "b": "File management",
+    "c": "Networking",
+    "d": "Processor management",
+    "answer": "c"
+},
+{
+    "question" : "Paging is implemented in?",
+    "a": "Operating system",
+    "b": "Hardware",
+    "c": "Software",
+    "d": "All of the mentioned",
+    "answer": "b"
+},
+{
+    "question" : "A process is __________ ",
+    "a": "Program in main memory",
+    "b": "Program in cache memory",
+    "c": "Program in secondary storage",
+    "d": "Program in execution",
+    "answer": "d"
+},
+{
+    "question" : "If the displayed system time and date is wrong, use can reset it using:",
+    "a": "Write",
+    "b": "Calender",
+    "c": "Write file",
+    "d": "Control panel",
+    "answer": "d"
+},
+{
+    "question" : "Which is NOT an application software?",
+    "a": "Windows NT",
+    "b": "Page Maker",
+    "c": "WinWord XP",
+    "d": "Photoshop",
+    "answer": "a"
+},
+{
+    "question" : "What program runs first afer computer is booted and loaded GUI?",
+    "a": "Desktop Manager",
+    "b": "File Manager",
+    "c": "Windows Explorer",
+    "d": "Authentication",
+    "answer": "d"
+},
+{
+    "question" : "Linux is a(n) __________ operating system.",
+    "a": "Open source",
+    "b": "Microsoft",
+    "c": "Windows",
+    "d": "Mac",
+    "answer": "a"
+},
+{
+    "question" : "Which mode loads minimal set of drivers when starting Windows?",
+    "a": "Safe Mode",
+    "b": "Normal Mode",
+    "c": "VGA Mode",
+    "d": "Network Support Mode",
+    "answer": "a"
+},
+{
+    "question" : "MacOS is based on the __________ operating system",
+    "a": "Windows",
+    "b": "Linux",
+    "c": "Unix",
+    "d": "CMOS",
+    "answer": "c"
+},
+{
+    "question" : "The Basic Input Output System (BIOS) resides in:",
+    "a": "RAM",
+    "b": "ROM",
+    "c": "CPU",
+    "d": "Memory cache",
+    "answer": "b"
+},
+{
+    "question" : "Recently deleted files are stored in:",
+    "a": "Desktop",
+    "b": "Taskbar",
+    "c": "Recycle bin",
+    "d": "My computer",
+    "answer": "c"
+},
+{
+    "question" : "All of the following are TRUE regarding Virtual Memory EXCEPT:",
+    "a": "Any amount of RAM can be allocated to virtual memory",
+    "b": "The setting for the amount of hard disk drive space to allocate virtual memory can be manually changed",
+    "c": "This temporary storage is called the swap file or page file",
+    "d": "Virtual memory is the physical space on the hard drive",
+    "answer": "a"
+},
+{
+    "question" : "Which of the following is suitable after user installs new drivers?",
+    "a": "Shutdown",
+    "b": "Restart",
+    "c": "Sleep",
+    "d": "Hibernate",
+    "answer": "b"
+},
+{
+    "question" : "Which of the following requires a device driver?",
+    "a": "Register",
+    "b": "Cache",
+    "c": "Main memory",
+    "d": "Disk",
+    "answer": "d"
+},
+{
+    "question" : "Which of the following scheduling algorithms is non-preemptive?",
+    "a": "Round robin",
+    "b": "FIFO",
+    "c": "Multilevel queue scheduling",
+    "d": "Multilevel queue scheduling with feedback",
+    "answer": "b"
+},
+{
+    "question" : "In operating system, a software may triggers an interrupt executing a special operation it is called as?",
+    "a": "System call",
+    "b": "Application call",
+    "c": "Software call",
+    "d": "Kernel call",
+    "answer": "a"
+},
+{
+    "question" : "Quad core processors are the processors having:",
+    "a": "1 processor",
+    "b": "2 processors",
+    "c": "3 processors",
+    "d": "4 processors",
+    "answer": "d"
+},
+{
+    "question" : "DMA is the part of computer system which is the abbreviation of?",
+    "a": "Dynamic memory address",
+    "b": "Direct memory access",
+    "c": "Dynamic memory access",
+    "d": "Direct memory address",
+    "answer": "b"
+},
+{
+    "question" : "One that is NOT an operating system mode is:",
+    "a": "User mode",
+    "b": "Kernel mode",
+    "c": "Supervisor mode",
+    "d": "System mode",
+    "answer": "d"
+},
+{
+    "question" : "One word memory storage is the collection of?",
+    "a": "2 bytes",
+    "b": "4 bytes",
+    "c": "7 bytes",
+    "d": "8 bytes",
+    "answer": "b"
+},
+{
+    "question" : "Secondary memory of the computer system is also called:",
+    "a": "Non-volatile",
+    "b": "Volatile",
+    "c": "Reserved",
+    "d": "Small",
+    "answer": "a"
+},
+{
+    "question" : "Main memory of the computer system is also called?",
+    "a": "Non-volatile",
+    "b": "Volatile",
+    "c": "Reserved",
+    "d": "Large",
+    "answer": "b"
+},
+{
+    "question" : "Example of an open source operating system is:",
+    "a": "Unix",
+    "b": "Linux",
+    "c": "Windows",
+    "d": "Both (a) and (b)",
+    "answer": "d"
+},
+{
+    "question" : "Scheduling of threads are done by?",
+    "a": "Input",
+    "b": "Output",
+    "c": "Operating System",
+    "d": "Memory",
+    "answer": "c"
+},
+{
+    "question" : "Dual mode of Operating System has:",
+    "a": "1 mode",
+    "b": "2 modes",
+    "c": "3 modes ",
+    "d": "4 modes ",
+    "answer": "b"
+}
+]
