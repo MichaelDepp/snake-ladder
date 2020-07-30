@@ -27,8 +27,8 @@ body {
     align-items: center;
     justify-content: center;
     .small-box {
-        width: 25em;
-        height: 35em;
+        width: 22vw;
+        height: 60vh;
         margin-top: 60px;
         margin-right: 40px;
         background: white;
@@ -73,8 +73,8 @@ body {
                 text-align: center;
                 margin-top: 50px;
                 #answer-btn {
-                    width: 8em;
-                    height: 2em;
+                    width: 6vw;
+                    height: 3.5vh;
                     font-size: $smalltext;
                     color: white;
                     background-color: green;
@@ -112,7 +112,7 @@ body {
 }
 
 #forgithub {
-    width: 30em;
+    width: 25vw;
     text-align: justify;
     font-weight: 500;
     margin-bottom: 80px;
@@ -132,8 +132,8 @@ body {
     background-color: rgba(0,0,0,0.8);
     
     .small-box {
-        width: 40em;
-        height: 30em;
+        width: 33vw;
+        height: 50vh;
         background: white;
 
         a {
@@ -163,7 +163,7 @@ body {
                 overflow: hidden;
                 outline:none;
                 img {
-                    width: 1.6em;
+                    width: 1.2vw;
                 }
             }
         }
@@ -226,8 +226,8 @@ body {
 
 #start-btn {
     
-    width: 8em;
-    height: 2em;
+    width: 6vw;
+    height: 3.5vh;
     font-size: $smalltext;
     margin-top: 20px;
     color: white;
@@ -249,8 +249,8 @@ body {
         padding-top: 10px;
         justify-content: center;
         .player-name {
-            width: 17rem;
-            height: 2rem;
+            width: 15vw;
+            height: 3vh;
             background: $clr3;
             text-align: left;
             padding-top: 5px;
@@ -261,8 +261,8 @@ body {
             }
         }
         .player-posi {
-            width: 3rem;
-            height: 2rem;
+            width: 5vh;
+            height: 3vh;
             background: cyan;
             text-align: center;
             padding-top: 5px;
@@ -329,14 +329,15 @@ body {
     display: block;
     img {
         position: absolute;
+        height: 89vh;
     }
     table {
         td {
             vertical-align: top;
-            min-width: 5em;
-            max-width: 5em;
-            width: 5em;
-            height: 5em;
+            min-width: 8.5vh;
+            max-width: 8.5vh;
+            width: 8.5vh;
+            height: 8.5vh;
             .circleholder {
                 display: flex;
                 justify-content: center;
@@ -407,8 +408,8 @@ body {
     margin-left: 40px;
     .player {
         
-        width: 25em;
-        height: 35em;
+        width: 22vw;
+        height: 60vh;
         background: white;
         overflow: auto;
         .current {
@@ -451,8 +452,8 @@ body {
                 padding-top: 10px;
                 justify-content: center;
                 .player-name {
-                    width: 17rem;
-                    height: 2rem;
+                    width: 15vw;
+                    height: 3vh;
                     background: $clr3;
                     text-align: left;
                     padding-top: 5px;
@@ -463,8 +464,8 @@ body {
                     }
                 }
                 .player-posi {
-                    width: 3rem;
-                    height: 2rem;
+                    width: 5vh;
+                    height: 3vh;
                     background: cyan;
                     text-align: center;
                     padding-top: 5px;
@@ -482,13 +483,13 @@ body {
         text-align: center;
         .dice-box {
             img {
-                width: 9em;
+                width: 8vw;
             }
         }
         .control {
             button {
-                width: 8em;
-                height: 2em;
+                width: 6vw;
+                height: 3.5vh;
                 font-size: $smalltext;
                 margin-top: 20px;
                 color: white;

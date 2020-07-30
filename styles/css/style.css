@@ -14,8 +14,8 @@ body {
 }
 
 .question .small-box {
-  width: 25em;
-  height: 35em;
+  width: 22vw;
+  height: 60vh;
   margin-top: 60px;
   margin-right: 40px;
   background: white;
@@ -70,8 +70,8 @@ body {
 }
 
 .question .small-box #question-wrapper .answer-wrapper #answer-btn {
-  width: 8em;
-  height: 2em;
+  width: 6vw;
+  height: 3.5vh;
   font-size: 1em;
   color: white;
   background-color: green;
@@ -107,7 +107,7 @@ body {
 }
 
 #forgithub {
-  width: 30em;
+  width: 25vw;
   text-align: justify;
   font-weight: 500;
   margin-bottom: 80px;
@@ -128,8 +128,8 @@ body {
 }
 
 #first-box .small-box {
-  width: 40em;
-  height: 30em;
+  width: 33vw;
+  height: 50vh;
   background: white;
 }
 
@@ -165,7 +165,7 @@ body {
 }
 
 #first-box .small-box .close-btn button img {
-  width: 1.6em;
+  width: 1.2vw;
 }
 
 #first-box .small-box .message {
@@ -230,8 +230,8 @@ body {
 }
 
 #start-btn {
-  width: 8em;
-  height: 2em;
+  width: 6vw;
+  height: 3.5vh;
   font-size: 1em;
   margin-top: 20px;
   color: white;
@@ -255,8 +255,8 @@ body {
 }
 
 #winner-announce .player-box .player-name {
-  width: 17rem;
-  height: 2rem;
+  width: 15vw;
+  height: 3vh;
   background: #d3d3d3;
   text-align: left;
   padding-top: 5px;
@@ -269,8 +269,8 @@ body {
 }
 
 #winner-announce .player-box .player-posi {
-  width: 3rem;
-  height: 2rem;
+  width: 5vh;
+  height: 3vh;
   background: cyan;
   text-align: center;
   padding-top: 5px;
@@ -341,14 +341,15 @@ body {
 
 #board img {
   position: absolute;
+  height: 89vh;
 }
 
 #board table td {
   vertical-align: top;
-  min-width: 5em;
-  max-width: 5em;
-  width: 5em;
-  height: 5em;
+  min-width: 8.5vh;
+  max-width: 8.5vh;
+  width: 8.5vh;
+  height: 8.5vh;
 }
 
 #board table td .circleholder {
@@ -425,8 +426,8 @@ body {
 }
 
 .right-block .player {
-  width: 25em;
-  height: 35em;
+  width: 22vw;
+  height: 60vh;
   background: white;
   overflow: auto;
 }
@@ -480,8 +481,8 @@ body {
 }
 
 .right-block .player .total .player-box .player-name {
-  width: 17rem;
-  height: 2rem;
+  width: 15vw;
+  height: 3vh;
   background: #d3d3d3;
   text-align: left;
   padding-top: 5px;
@@ -494,8 +495,8 @@ body {
 }
 
 .right-block .player .total .player-box .player-posi {
-  width: 3rem;
-  height: 2rem;
+  width: 5vh;
+  height: 3vh;
   background: cyan;
   text-align: center;
   padding-top: 5px;
@@ -512,12 +513,12 @@ body {
 }
 
 .right-block .roll-dice .dice-box img {
-  width: 9em;
+  width: 8vw;
 }
 
 .right-block .roll-dice .control button {
-  width: 8em;
-  height: 2em;
+  width: 6vw;
+  height: 3.5vh;
   font-size: 1em;
   margin-top: 20px;
   color: white;
