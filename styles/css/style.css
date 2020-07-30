@@ -14,8 +14,8 @@ body {
 }
 
 .question .small-box {
-  width: 400px;
-  height: 600px;
+  width: 25em;
+  height: 35em;
   margin-top: 60px;
   margin-right: 40px;
   background: white;
@@ -42,6 +42,7 @@ body {
 
 .question .small-box .message {
   padding-top: 20px;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -60,6 +61,7 @@ body {
 .question .small-box #question-wrapper label {
   display: block;
   padding-bottom: 10px;
+  font-size: 1em;
 }
 
 .question .small-box #question-wrapper .answer-wrapper {
@@ -68,8 +70,9 @@ body {
 }
 
 .question .small-box #question-wrapper .answer-wrapper #answer-btn {
-  width: 80px;
-  height: 30px;
+  width: 8em;
+  height: 2em;
+  font-size: 1em;
   color: white;
   background-color: green;
   background-repeat: no-repeat;
@@ -104,10 +107,11 @@ body {
 }
 
 #forgithub {
-  width: 480px;
+  width: 30em;
   text-align: justify;
   font-weight: 500;
   margin-bottom: 80px;
+  font-size: 1em;
 }
 
 #first-box {
@@ -124,8 +128,8 @@ body {
 }
 
 #first-box .small-box {
-  width: 600px;
-  height: 450px;
+  width: 40em;
+  height: 30em;
   background: white;
 }
 
@@ -142,6 +146,7 @@ body {
 
 #first-box .small-box .instructions p {
   font-weight: 500;
+  font-size: 1em;
 }
 
 #first-box .small-box .close-btn {
@@ -160,11 +165,12 @@ body {
 }
 
 #first-box .small-box .close-btn button img {
-  width: 20px;
+  width: 1.6em;
 }
 
 #first-box .small-box .message {
   text-align: center;
+  font-size: 1em;
 }
 
 #first-box .small-box #question-wrapper {
@@ -224,8 +230,9 @@ body {
 }
 
 #start-btn {
-  width: 100px;
-  height: 30px;
+  width: 8em;
+  height: 2em;
+  font-size: 1em;
   margin-top: 20px;
   color: white;
   background-color: green;
@@ -248,8 +255,8 @@ body {
 }
 
 #winner-announce .player-box .player-name {
-  width: 200px;
-  height: 30px;
+  width: 17rem;
+  height: 2rem;
   background: #d3d3d3;
   text-align: left;
   padding-top: 5px;
@@ -257,12 +264,13 @@ body {
 
 #winner-announce .player-box .player-name label {
   font-weight: 500;
+  font-size: 1em;
   padding-left: 10px;
 }
 
 #winner-announce .player-box .player-posi {
-  width: 50px;
-  height: 30px;
+  width: 3rem;
+  height: 2rem;
   background: cyan;
   text-align: center;
   padding-top: 5px;
@@ -317,6 +325,7 @@ body {
 
 #welcome a {
   margin-top: 30px;
+  font-size: 1em;
   text-decoration: none;
 }
 
@@ -336,10 +345,10 @@ body {
 
 #board table td {
   vertical-align: top;
-  min-width: 80px;
-  max-width: 80px;
-  width: 80px;
-  height: 80px;
+  min-width: 5em;
+  max-width: 5em;
+  width: 5em;
+  height: 5em;
 }
 
 #board table td .circleholder {
@@ -416,8 +425,8 @@ body {
 }
 
 .right-block .player {
-  width: 400px;
-  height: 500px;
+  width: 25em;
+  height: 35em;
   background: white;
   overflow: auto;
 }
@@ -429,7 +438,7 @@ body {
 
 .right-block .player .current label {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.2em;
   color: blueviolet;
 }
 
@@ -443,7 +452,7 @@ body {
   right: 0;
   width: 200px;
   padding-left: 30px;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 .right-block .player .current .position #current-posi {
@@ -451,7 +460,7 @@ body {
   right: 0;
   width: 200px;
   padding-left: 30px;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 .right-block .player .total {
@@ -460,7 +469,7 @@ body {
 
 .right-block .player .total label {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.2em;
   color: blueviolet;
 }
 
@@ -471,8 +480,8 @@ body {
 }
 
 .right-block .player .total .player-box .player-name {
-  width: 300px;
-  height: 30px;
+  width: 17rem;
+  height: 2rem;
   background: #d3d3d3;
   text-align: left;
   padding-top: 5px;
@@ -480,18 +489,20 @@ body {
 
 .right-block .player .total .player-box .player-name label {
   font-weight: 500;
+  font-size: 1em;
   padding-left: 10px;
 }
 
 .right-block .player .total .player-box .player-posi {
-  width: 50px;
-  height: 30px;
+  width: 3rem;
+  height: 2rem;
   background: cyan;
   text-align: center;
   padding-top: 5px;
 }
 
 .right-block .player .total .player-box .player-posi label {
+  font-size: 1em;
   font-weight: 500;
 }
 
@@ -501,12 +512,13 @@ body {
 }
 
 .right-block .roll-dice .dice-box img {
-  width: 140px;
+  width: 9em;
 }
 
 .right-block .roll-dice .control button {
-  width: 100px;
-  height: 30px;
+  width: 8em;
+  height: 2em;
+  font-size: 1em;
   margin-top: 20px;
   color: white;
   background-color: red;

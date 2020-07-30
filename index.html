@@ -9,7 +9,7 @@
     <link rel='icon' href='./assets/favicon.png' type='image/x-icon'>
 </head>
 
-<body>
+<body id="container">
     <div class="question">
         <div class="small-box" id="question-small-box">
             <div class="message">
@@ -35,7 +35,7 @@
     <div id="first-box" >
         <div class="small-box" style="display: none;" id="winner-announce">
             <div class="close-btn">
-                <button onclick="closeInstruction()"><img src="./assets/close.png"></button>
+                <button onclick="closeWinner()"><img src="./assets/close.png"></button>
             </div>
             <div class="message" id="announce-box">
                 <h1 id="winner-name">Winner Is </h1>
@@ -158,6 +158,11 @@
             document.getElementById('addplayer').style.display = "none";
             document.getElementById('first-box').style.display = "none";
 
+        }
+
+        function closeWinner() {
+            document.getElementById('winner-announce').style.display = "none";
+            document.getElementById('first-box').style.display = "none";
         }
     </script>
     <script src="./js/index.js"></script>
