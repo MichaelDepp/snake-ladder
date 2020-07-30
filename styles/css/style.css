@@ -42,7 +42,7 @@ body {
 
 .question .small-box .message {
   padding-top: 20px;
-  font-size: 1em;
+  font-size: 1.7vh;
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ body {
 .question .small-box #question-wrapper label {
   display: block;
   padding-bottom: 10px;
-  font-size: 1em;
+  font-size: 1.7vh;
 }
 
 .question .small-box #question-wrapper .answer-wrapper {
@@ -72,7 +72,7 @@ body {
 .question .small-box #question-wrapper .answer-wrapper #answer-btn {
   width: 6vw;
   height: 3.5vh;
-  font-size: 1em;
+  font-size: 1.7vh;
   color: white;
   background-color: green;
   background-repeat: no-repeat;
@@ -95,8 +95,9 @@ body {
 
 .question .small-box #question-wrapper .remark-box button {
   margin-left: 90px;
-  width: 120px;
-  height: 30px;
+  width: 6vw;
+  height: 3.5vh;
+  font-size: 1.7vh;
   color: black;
   background-color: lightskyblue;
   background-repeat: no-repeat;
@@ -110,8 +111,8 @@ body {
   width: 25vw;
   text-align: justify;
   font-weight: 500;
-  margin-bottom: 80px;
-  font-size: 1em;
+  margin-bottom: 10vh;
+  font-size: 1.7vh;
 }
 
 #first-box {
@@ -134,25 +135,25 @@ body {
 }
 
 #first-box .small-box a {
-  margin-top: 30px;
+  margin-top: 10vh;
   text-decoration: none;
 }
 
 #first-box .small-box .instructions {
   display: block;
-  width: 500px;
+  width: 30vw;
   margin: 0 auto;
 }
 
 #first-box .small-box .instructions p {
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.7vh;
 }
 
 #first-box .small-box .close-btn {
   text-align: right;
-  padding-right: 10px;
-  padding-top: 10px;
+  padding-right: 1.3vh;
+  padding-top: 1.3vh;
 }
 
 #first-box .small-box .close-btn button {
@@ -170,18 +171,18 @@ body {
 
 #first-box .small-box .message {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.7vh;
 }
 
 #first-box .small-box #question-wrapper {
-  width: 500px;
+  width: 20vw;
   margin: 0 auto;
 }
 
 #first-box .small-box #question-wrapper #question-part {
   text-align: center;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.7vh;
 }
 
 #first-box .small-box #question-wrapper label {
@@ -194,8 +195,8 @@ body {
 }
 
 #first-box .small-box #question-wrapper .answer-wrapper #answer-btn {
-  width: 80px;
-  height: 30px;
+  width: 5vw;
+  height: 3vh;
   color: white;
   background-color: green;
   background-repeat: no-repeat;
@@ -218,8 +219,9 @@ body {
 
 #first-box .small-box #question-wrapper .remark-box button {
   margin-left: 190px;
-  width: 120px;
-  height: 30px;
+  width: 6vw;
+  height: 3.5vh;
+  font-size: 1.7vh;
   color: black;
   background-color: lightskyblue;
   background-repeat: no-repeat;
@@ -232,7 +234,7 @@ body {
 #start-btn {
   width: 6vw;
   height: 3.5vh;
-  font-size: 1em;
+  font-size: 1.7vh;
   margin-top: 20px;
   color: white;
   background-color: green;
@@ -264,7 +266,7 @@ body {
 
 #winner-announce .player-box .player-name label {
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.7vh;
   padding-left: 10px;
 }
 
@@ -286,8 +288,9 @@ body {
 }
 
 #winner-announce .btn-res #restart {
-  width: 100px;
-  height: 30px;
+  width: 6vw;
+  height: 3.5vh;
+  font-size: 1.7vh;
   margin-top: 30px;
   background-color: #8400ff;
   background-repeat: no-repeat;
@@ -325,7 +328,7 @@ body {
 
 #welcome a {
   margin-top: 30px;
-  font-size: 1em;
+  font-size: 1.7vh;
   text-decoration: none;
 }
 
@@ -439,29 +442,28 @@ body {
 
 .right-block .player .current label {
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 2vh;
   color: blueviolet;
 }
 
 .right-block .player .current .position {
   display: flex;
   font-weight: 700;
+  justify-content: center;
 }
 
 .right-block .player .current .position #current-player {
   text-align: left;
   right: 0;
-  width: 200px;
-  padding-left: 30px;
-  font-size: 1.3em;
+  width: 15vw;
+  font-size: 2vh;
 }
 
 .right-block .player .current .position #current-posi {
   text-align: center;
   right: 0;
-  width: 200px;
   padding-left: 30px;
-  font-size: 1.3em;
+  font-size: 2vh;
 }
 
 .right-block .player .total {
@@ -470,7 +472,7 @@ body {
 
 .right-block .player .total label {
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 2vh;
   color: blueviolet;
 }
 
@@ -490,7 +492,7 @@ body {
 
 .right-block .player .total .player-box .player-name label {
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.7vh;
   padding-left: 10px;
 }
 
@@ -503,7 +505,7 @@ body {
 }
 
 .right-block .player .total .player-box .player-posi label {
-  font-size: 1em;
+  font-size: 1.7vh;
   font-weight: 500;
 }
 
@@ -519,7 +521,7 @@ body {
 .right-block .roll-dice .control button {
   width: 6vw;
   height: 3.5vh;
-  font-size: 1em;
+  font-size: 1.7vh;
   margin-top: 20px;
   color: white;
   background-color: red;
