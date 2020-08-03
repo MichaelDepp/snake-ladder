@@ -7,4 +7,18 @@ You can edit and customise the question according to the questions you want to i
 
 This is the screenshots of the game.
 
+<img src="./screenshots/ss1.PNG" width="80%">
+                                      
+<img src="./screenshots/ss3.PNG" width="80%">
+                                             
+<img src="./screenshots/ss4.PNG" width="80%">
+                                             
+<img src="./screenshots/ss5.PNG" width="80%">
+                                             
+<img src="./screenshots/ss6.PNG" width="80%">
 
+<img src="./screenshots/ss7.PNG" width="80%">
+
+<img src="./screenshots/ss8.PNG" width="80%">
+
+<img src="./screenshots/ss9.PNG" width="80%">
