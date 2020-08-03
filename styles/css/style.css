@@ -16,57 +16,38 @@ body {
 .question .small-box {
   width: 22vw;
   height: 60vh;
-  margin-top: 60px;
-  margin-right: 40px;
+  margin-top: 10vh;
+  margin-right: 2vw;
   background: white;
 }
 
-.question .small-box .close-btn {
-  text-align: right;
-  padding-right: 10px;
-  padding-top: 10px;
-}
-
-.question .small-box .close-btn button {
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-}
-
-.question .small-box .close-btn button img {
-  width: 20px;
-}
-
 .question .small-box .message {
-  padding-top: 20px;
+  padding-top: 3vh;
   font-size: 1.7vh;
   text-align: center;
 }
 
 .question .small-box #question-wrapper {
-  width: 300px;
+  width: 16vw;
   margin: 0 auto;
 }
 
 .question .small-box #question-wrapper #question-part {
-  margin-top: 30px;
+  margin-top: 2vh;
   text-align: center;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 2vh;
 }
 
 .question .small-box #question-wrapper label {
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 2vh;
   font-size: 1.7vh;
 }
 
 .question .small-box #question-wrapper .answer-wrapper {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 2vh;
 }
 
 .question .small-box #question-wrapper .answer-wrapper #answer-btn {
@@ -90,11 +71,11 @@ body {
 .question .small-box #question-wrapper .remark-box {
   display: block;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2vh;
 }
 
 .question .small-box #question-wrapper .remark-box button {
-  margin-left: 90px;
+  margin-left: 5vw;
   width: 6vw;
   height: 3.5vh;
   font-size: 1.7vh;
@@ -187,7 +168,7 @@ body {
 
 #first-box .small-box #question-wrapper label {
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 2vh;
 }
 
 #first-box .small-box #question-wrapper .answer-wrapper {
@@ -214,11 +195,11 @@ body {
 #first-box .small-box #question-wrapper .remark-box {
   display: block;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 3vh;
 }
 
 #first-box .small-box #question-wrapper .remark-box button {
-  margin-left: 190px;
+  margin-left: 5vw;
   width: 6vw;
   height: 3.5vh;
   font-size: 1.7vh;
@@ -235,7 +216,7 @@ body {
   width: 6vw;
   height: 3.5vh;
   font-size: 1.7vh;
-  margin-top: 20px;
+  margin-top: 1vh;
   color: white;
   background-color: green;
   background-repeat: no-repeat;
@@ -252,7 +233,7 @@ body {
 
 #winner-announce .player-box {
   display: flex;
-  padding-top: 10px;
+  padding-top: 2vh;
   justify-content: center;
 }
 
@@ -261,13 +242,13 @@ body {
   height: 3vh;
   background: #d3d3d3;
   text-align: left;
-  padding-top: 5px;
+  padding-top: 1vh;
 }
 
 #winner-announce .player-box .player-name label {
   font-weight: 500;
   font-size: 1.7vh;
-  padding-left: 10px;
+  padding-left: 1vw;
 }
 
 #winner-announce .player-box .player-posi {
@@ -275,7 +256,7 @@ body {
   height: 3vh;
   background: cyan;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 1vh;
 }
 
 #winner-announce .player-box .player-posi label {
@@ -291,7 +272,7 @@ body {
   width: 6vw;
   height: 3.5vh;
   font-size: 1.7vh;
-  margin-top: 30px;
+  margin-top: 2.5vh;
   background-color: #8400ff;
   background-repeat: no-repeat;
   border: none;
@@ -307,33 +288,14 @@ body {
   justify-content: center;
 }
 
-#welcome .group-box .person-box {
-  padding-left: 30px;
-}
-
-#welcome .group-box .person-box .dp-holder img {
-  width: 150px;
-  border-radius: 50%;
-  border: blueviolet 2px solid;
-}
-
-#welcome .group-box .person-box .person-desc {
-  margin-top: 20px;
-  margin-bottom: 60px;
-}
-
-#welcome .group-box .person-box .person-desc label {
-  display: block;
-}
-
 #welcome a {
-  margin-top: 30px;
+  margin-top: 1vh;
   font-size: 1.7vh;
   text-decoration: none;
 }
 
 .main-content {
-  padding-top: 30px;
+  padding-top: 4vh;
   display: flex;
   justify-content: center;
 }
@@ -363,69 +325,69 @@ body {
 }
 
 #board table td .circleholder .red {
-  border: 2px solid black;
+  border: 0.2vh solid black;
   background-color: red;
-  height: 15px;
+  height: 1.5vh;
   border-radius: 50%;
-  width: 15px;
+  width: 1.5vh;
   position: static;
   flex-shrink: 0;
 }
 
 #board table td .circleholder .green {
-  border: 2px solid black;
+  border: 0.2vh solid black;
   background-color: green;
-  height: 15px;
+  height: 1.5vh;
   border-radius: 50%;
-  width: 15px;
+  width: 1.5vh;
   position: static;
   flex-shrink: 0;
 }
 
 #board table td .circleholder .yellow {
-  border: 2px solid black;
+  border: 0.2vh solid black;
   background-color: yellow;
-  height: 15px;
+  height: 1.5vh;
   border-radius: 50%;
-  width: 15px;
+  width: 1.5vh;
   position: static;
   flex-shrink: 0;
 }
 
 #board table td .circleholder .blue {
-  border: 2px solid black;
+  border: 0.2vh solid black;
   background-color: blue;
-  height: 15px;
+  height: 1.5vh;
   border-radius: 50%;
-  width: 15px;
+  width: 1.5vh;
   position: static;
   flex-shrink: 0;
 }
 
 #board table td .circleholder .pink {
-  border: 2px solid black;
+  border: 0.2vh solid black;
   background-color: pink;
-  height: 15px;
+  height: 1.5vh;
   border-radius: 50%;
-  width: 15px;
+  width: 1.5vh;
   position: static;
   flex-shrink: 0;
 }
 
 #board table td .circleholder .black {
-  border: 2px solid black;
+  border: 0.2vh solid black;
   background-color: black;
-  height: 15px;
+  height: 1.5vh;
   border-radius: 50%;
-  width: 15px;
+  width: 1.5vh;
   position: static;
   flex-shrink: 0;
 }
 
 .right-block {
   display: block;
-  padding-top: 40px;
-  margin-left: 40px;
+  padding-top: 7vh;
+  margin-left: 2vw;
 }
 
 .right-block .player {
@@ -436,7 +398,7 @@ body {
 }
 
 .right-block .player .current {
-  padding-top: 10px;
+  padding-top: 2vh;
   text-align: center;
 }
 
@@ -462,7 +424,7 @@ body {
 .right-block .player .current .position #current-posi {
   text-align: center;
   right: 0;
-  padding-left: 30px;
+  padding-left: 2vw;
   font-size: 2vh;
 }
 
@@ -478,7 +440,7 @@ body {
 
 .right-block .player .total .player-box {
   display: flex;
-  padding-top: 10px;
+  padding-top: 2vh;
   justify-content: center;
 }
 
@@ -487,13 +449,13 @@ body {
   height: 3vh;
   background: #d3d3d3;
   text-align: left;
-  padding-top: 5px;
+  padding-top: 1vh;
 }
 
 .right-block .player .total .player-box .player-name label {
   font-weight: 500;
   font-size: 1.7vh;
-  padding-left: 10px;
+  padding-left: 1vw;
 }
 
 .right-block .player .total .player-box .player-posi {
@@ -501,7 +463,7 @@ body {
   height: 3vh;
   background: cyan;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 1vh;
 }
 
 .right-block .player .total .player-box .player-posi label {
@@ -510,7 +472,7 @@ body {
 }
 
 .right-block .roll-dice {
-  margin-top: 30px;
+  margin-top: 2vh;
   text-align: center;
 }
 
@@ -522,7 +484,7 @@ body {
   width: 6vw;
   height: 3.5vh;
   font-size: 1.7vh;
-  margin-top: 20px;
+  margin-top: 1vh;
   color: white;
   background-color: red;
   background-repeat: no-repeat;
@@ -535,5 +497,11 @@ body {
 .right-block .roll-dice .control button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+@media all and (orientation: portrait) {
+  body {
+    transform: rotate(90deg);
+  }
 }
 /*# sourceMappingURL=style.css.map */

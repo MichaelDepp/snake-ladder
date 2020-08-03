@@ -29,49 +29,32 @@ body {
     .small-box {
         width: 22vw;
         height: 60vh;
-        margin-top: 60px;
-        margin-right: 40px;
+        margin-top: 10vh;
+        margin-right: 2vw;
         background: white;
-
-        .close-btn {
-            text-align: right;
-            padding-right: 10px;
-            padding-top: 10px;
-            button {
-                background-color: Transparent;
-                background-repeat:no-repeat;
-                border: none;
-                cursor:pointer;
-                overflow: hidden;
-                outline:none;
-                img {
-                    width: 20px;
-                }
-            }
-        }
         .message {
-            padding-top: 20px;
+            padding-top: 3vh;
             font-size: $mainfont;
             text-align: center;
         }
 
         #question-wrapper {
-            width: 300px;
+            width: 16vw;
             margin:0 auto;
             #question-part {
-                margin-top: 30px;
+                margin-top: 2vh;
                 text-align: center;
                 font-weight: 500;
-                font-size: 18px;
+                font-size: $contentMed;
             }
             label {
                 display: block;
-                padding-bottom: 10px;
+                padding-bottom: 2vh;
                 font-size: $smalltext;
             }
             .answer-wrapper {
                 text-align: center;
-                margin-top: 50px;
+                margin-top: 2vh;
                 #answer-btn {
                     width: 6vw;
                     height: 3.5vh;
@@ -93,9 +76,9 @@ body {
                 display: block;
                 text-align: center;
                 
-                margin-top: 20px;
+                margin-top: 2vh;
                 button {
-                    margin-left: 90px;
+                    margin-left: 5vw;
                     width: 6vw;
                     height: 3.5vh;
                     font-size: $smalltext;
@@ -183,7 +166,7 @@ body {
             }
             label {
                 display: block;
-                padding-bottom: 10px;
+                padding-bottom: 2vh;
             }
             .answer-wrapper {
                 text-align: center;
@@ -207,9 +190,9 @@ body {
                 display: block;
                 text-align: center;
                 
-                margin-top: 20px;
+                margin-top: 3vh;
                 button {
-                    margin-left: 190px;
+                    margin-left: 5vw;
                     width: 6vw;
                     height: 3.5vh;
                     font-size: $smalltext;
@@ -231,7 +214,7 @@ body {
     width: 6vw;
     height: 3.5vh;
     font-size: $smalltext;
-    margin-top: 20px;
+    margin-top: 1vh;
     color: white;
     background-color: green;
     background-repeat:no-repeat;
@@ -248,18 +231,18 @@ body {
 #winner-announce {
     .player-box {
         display: flex;
-        padding-top: 10px;
+        padding-top: 2vh;
         justify-content: center;
         .player-name {
             width: 15vw;
             height: 3vh;
             background: $clr3;
             text-align: left;
-            padding-top: 5px;
+            padding-top: 1vh;
             label {
                 font-weight: 500;
                 font-size: $smalltext;
-                padding-left: 10px;
+                padding-left: 1vw;
             }
         }
         .player-posi {
@@ -267,7 +250,7 @@ body {
             height: 3vh;
             background: cyan;
             text-align: center;
-            padding-top: 5px;
+            padding-top: 1vh;
             label {
                 font-weight: 500;
             }
@@ -280,7 +263,7 @@ body {
             width: 6vw;
             height: 3.5vh;
             font-size: $smalltext;
-            margin-top: 30px;
+            margin-top: 2.5vh;
             background-color: #8400ff;
             background-repeat:no-repeat;
             border: none;
@@ -297,33 +280,16 @@ body {
     .group-box {
         display: flex;
         justify-content: center;
-        .person-box {
-            padding-left: 30px;
-            .dp-holder {
-                img {
-                    width: 150px;
-                    border-radius: 50%;
-                    border: blueviolet 2px solid;
-                }
-            }
-            .person-desc {
-                margin-top: 20px;
-                margin-bottom: 60px;
-                label {
-                    display: block;
-                }
-            }
-        }
     }
     a {
-        margin-top: 30px;
+        margin-top: 1vh;
         font-size: $smalltext;
         text-decoration: none;
     }
 }
 
 .main-content {
-    padding-top: 30px;
+    padding-top: 4vh;
     display: flex;
     justify-content: center;
 }
@@ -347,56 +313,56 @@ body {
                 text-align: center;
                 flex-wrap: wrap;
                 .red {
-                    border: 2px solid black;
+                    border: 0.2vh solid black;
                     background-color: red;
-                    height: 15px;
+                    height: 1.5vh;
                     border-radius:50%;
-                    width: 15px;
+                    width: 1.5vh;
                     position: static;
                     flex-shrink: 0;
                 }
                 .green {
-                    border: 2px solid black;
+                    border: 0.2vh solid black;
                     background-color: green;
-                    height: 15px;
+                    height: 1.5vh;
                     border-radius:50%;
-                    width: 15px;
+                    width: 1.5vh;
                     position: static;
                     flex-shrink: 0;
                 }
                 .yellow {
-                    border: 2px solid black;
+                    border: 0.2vh solid black;
                     background-color: yellow;
-                    height: 15px;
+                    height: 1.5vh;
                     border-radius:50%;
-                    width: 15px;
+                    width: 1.5vh;
                     position: static;
                     flex-shrink: 0;
                 }
                 .blue {
-                    border: 2px solid black;
+                    border: 0.2vh solid black;
                     background-color: blue;
-                    height: 15px;
+                    height: 1.5vh;
                     border-radius:50%;
-                    width: 15px;
+                    width: 1.5vh;
                     position: static;
                     flex-shrink: 0;
                 }
                 .pink {
-                    border: 2px solid black;
+                    border: 0.2vh solid black;
                     background-color: pink;
-                    height: 15px;
+                    height: 1.5vh;
                     border-radius:50%;
-                    width: 15px;
+                    width: 1.5vh;
                     position: static;
                     flex-shrink: 0;
                 }
                 .black {
-                    border: 2px solid black;
+                    border: 0.2vh solid black;
                     background-color: black;
-                    height: 15px;
+                    height: 1.5vh;
                     border-radius:50%;
-                    width: 15px;
+                    width: 1.5vh;
                     position: static;
                     flex-shrink: 0;
                 }
@@ -407,8 +373,8 @@ body {
 
 .right-block {
     display: block;
-    padding-top: 40px;
-    margin-left: 40px;
+    padding-top: 7vh;
+    margin-left: 2vw;
     .player {
         
         width: 22vw;
@@ -416,7 +382,7 @@ body {
         background: white;
         overflow: auto;
         .current {
-            padding-top: 10px;
+            padding-top: 2vh;
             text-align: center;
             label {
                 font-weight: 400;
@@ -436,7 +402,7 @@ body {
                 #current-posi {
                     text-align: center;
                     right: 0;
-                    padding-left: 30px;
+                    padding-left: 2vw;
                     font-size: $contentMed;
                 }
             }
@@ -451,18 +417,18 @@ body {
 
             .player-box {
                 display: flex;
-                padding-top: 10px;
+                padding-top: 2vh;
                 justify-content: center;
                 .player-name {
                     width: 15vw;
                     height: 3vh;
                     background: $clr3;
                     text-align: left;
-                    padding-top: 5px;
+                    padding-top: 1vh;
                     label {
                         font-weight: 500;
                         font-size: $smalltext;
-                        padding-left: 10px;
+                        padding-left: 1vw;
                     }
                 }
                 .player-posi {
@@ -470,7 +436,7 @@ body {
                     height: 3vh;
                     background: cyan;
                     text-align: center;
-                    padding-top: 5px;
+                    padding-top: 1vh;
                     label {
                         font-size: $smalltext;
                         font-weight: 500;
@@ -481,7 +447,7 @@ body {
     }
 
     .roll-dice {
-        margin-top: 30px;
+        margin-top: 2vh;
         text-align: center;
         .dice-box {
             img {
@@ -493,7 +459,7 @@ body {
                 width: 6vw;
                 height: 3.5vh;
                 font-size: $smalltext;
-                margin-top: 20px;
+                margin-top: 1vh;
                 color: white;
                 background-color: red;
                 background-repeat:no-repeat;
@@ -507,5 +473,15 @@ body {
                 }
             }
         }
+    }
+}
+
+@media all and (orientation: portrait) {
+    body {
+        -webkit-transform: rotate(90deg); 
+        -moz-transform: rotate(90deg); 
+        -ms-transform: rotate(90deg); 
+        -o-transform: rotate(90deg); 
+        transform: rotate(90deg); 
     }
 }
