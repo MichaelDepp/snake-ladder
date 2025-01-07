@@ -1,0 +1,223 @@
+[
+{
+    "question" : "In facilitating the hardship, what elements are given by the Islamic framework to guide the Muslims?",
+    "a": "Qawaid fiqhiyyah (Legal Maxim)",
+    "b": "Pillar of Islam",
+    "c": "ḍarūriyyah al-Khaimah (five necessities)",
+    "d": " Pillar of Faith",
+    "answer": "c) ḍarūriyyah al-Khaimah (five necessities)"
+},
+{
+    "question" : "If the mashaqqah (hardship) appeared, there should be a provision for it. In the cases of the mashaqqah (hardship) disappearing, what is the rule determined for it?",
+    "a": "Still used the same provisions as in the appearance of hardship.",
+    "b": " Facilitate the hardship with other provisions.",
+    "c": "The matter should revert to its original rule",
+    "d": "There is no right answer. ",
+    "answer": " c) The matter should revert to its original rule."
+},
+{
+    "question" : "The situation where a person’s life, dignity, religion, offspring, and property would be endangered if he/she refused to commit an unlawful act. For this reason, a person is allowed to violate the rules to protect those things. This statement refers to the?",
+    "a": " Maslahah",
+    "b": "al-hajah (needs)",
+    "c": "al-kamaliyyah or al tahsiniyah (luxury)",
+    "d": " al-ḍarūrah (necessity)",
+    "answer": "d) al-ḍarūrah (necessity)"
+},
+{
+    "question" : "The situation where a person could encounter difficulty or hardship if he/she does not commit an unlawful act, although his/her life will not be in danger. It is recommended that such difficulty be prevented by committing what is unlawful.  This statement refers to the?",
+    "a": "Maslahah",
+    "b": "al-hajah (needs)",
+    "c": "al-kamaliyyah or al tahsiniyah (luxury)",
+    "d": "al-ḍarūrah (necessity)",
+    "answer": "b) al-hajah (needs)"
+},
+{
+    "question" : "The situation where a person seeks something excessive to maximize the enjoyment of his own life.  This statement refers to the?",
+    "a": "Maslahah",
+    "b": " al-hajah (needs)",
+    "c": "al-kamaliyyah or al tahsiniyah (luxury)",
+    "d": "al-ḍarūrah (necessity)",
+    "answer": "c) al-kamaliyyah or al tahsiniyah (luxury)"
+},
+{
+    "question" : "Choose the most accurate Islamic law principles that portray the legal maxim of Hardship Begets Facility, especially in relation to Islamic Banking and Finance.",
+    "a": "Whenever the circle of an affair narrows it is widened and whenever it widens it is narrowed",
+    "b": " Hadith: “Whoever brings ease to the one who is in difficulty, Allāh will bring him ease in this world and in the Hereafter",
+    "c": " The Majallah, no. 17, Hardship Begets facility.",
+    "d": "Allah Almighty says in the Quran: – “Allah intends ease for you, not hardship” (Al-Baqarah 2:185).",
+    "answer": "a"
+},
+{
+    "question" : "According to Al-Ghazālī, “the very objectives of the Sharīʿah are to promote the welfare of the people, which lies in safeguarding their faith, lives, intellect, posterity and wealth. Whatever ensures the safeguarding of these five [elements] serves the public interest and is desirable”. Thus, what are the right terms to indicate this statement?",
+    "a": "Musharakah Mutanaqqisah",
+    "b": "Maslahah",
+    "c": "Bai’inah",
+    "d": "ḍarūriyyah al-Khaimah (five necessities)",
+    "answer": "b"
+},
+{
+    "question" : "Does the principle of eliminating harm suggest that individuals should take action even if they are not directly affected by a harmful situation?",
+    "a": "Yes. The principle encourages individuals to act to prevent harm to others, emphasizing collective responsibility",
+    "b": "No.The principle discourages individuals to act in preventing harm to others",
+    
+    "answer": "a"
+},
+{
+    "question" : "Which of the following best represents the legal maxim Harm should be eliminated",
+    "a": "Damage is always acceptable if it helps one side.",
+    "b": "Damage is unavoidable and does not need to be repaired.",
+    "c": "Harm must be avoided or eliminated whenever possible, even if this calls for intervention.",
+    "d": "Harm should be addressed only with mutual consent.",
+    "answer": "c"
+},
+{
+    "question" : "(Al-Hajj 78)   وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍۢ …….Which one of the following is the correct explanation of this verse?",
+    "a": "Shows us that Allah is All-Knowing about His servants and He knows what is best for us.",
+    "b": "Explain to us that everything we do is subject to the intention and objective of the matter. ",
+    "c": "Tells us if someone is sick during fasting in Ramadan he is allowed to break his fast and needs to perform it when he has completely recovered.",
+    "d": "Shows us that Allah is not cruel and He is Very Mercy to his creation and everything Islam taught us should not be a burden to us since if we face hardship, there will be other ways to perform it.",
+    "answer": "d"
+},
+{
+    "question" : "According to the principle of harm should be eliminated, what should be done if harm is caused unintentionally?",
+    "a": "Since the harm was not deliberate, no action is required.",
+    "b": "The harm has to be undone, and compensation might be needed.",
+    "c": "The victim can inflict equal harm in retaliation",
+    "d": "Damage is only taken into account when it is done purposefully.",
+    "answer": "b"
+},
+{
+    "question" : "In which situation would the maxim Harm should be eliminated NOT apply?",
+    "a": "Someone who blocks access to a public route, inconveniencing other people.",
+    "b": " A teacher forcing a disobedient student to stand for a long period of time as a form of punishment.",
+    "c": "Failing to mend a broken pipe that causes water to leak into a neighbor's yard.",
+    "d": " An individual taking a decision that is innocuous and has no bearing on other people.",
+    "answer": "d"
+},
+{
+    "question" : "A person who harms themselves, for example, by engaging in bad habits, is not subject to the harm should be eliminated principle.",
+    "a": "True",
+    "b": "False",
+
+    "answer": "False. The principle encourages individuals to eliminate harm to themselves by avoiding destructive behaviors and seeking to improve their health and well-being, as preserving one's own body and mind is a key aspect of maintaining justice and balance."
+},
+{
+    "question" : "How does the principle help prevent financial harm in Islamic banking?",
+    "a": "The principle ensures that Islamic banking avoids harmful practices such as excessive risk (gharar), fraud, and unjust gains (riba), promoting fairness and mutual benefit in financial transactions.",
+    "b": "The principle ensures that Islamic banking practices such as excessive risk (gharar), fraud, and unjust gains (riba), promoting fairness and mutual benefit in financial transactions.",
+  
+    "answer": "a"
+},
+{
+    "question" : "In business practices, the principle of eliminating harm requires companies to ensure that their products are __________ before reaching consumers.",
+    "a": "cheap",
+    "b": "safe",
+    "c": "marketable",
+    "d": "available",
+    "answer": "b"
+},
+{
+    "question" : "The maxim suggests that when two harmful options exist, the one causing __________ harm should be chosen to minimize damage",
+    "a": "greater",
+    "b": "immediate",
+    "c": "long-term",
+    "d": "lesser",
+    "answer": "d"
+},
+{
+    "question" : "The maxim Harm is to be eliminated can be applied in __________ law, where actions are taken to stop pollution or damage to natural resources",
+    "a" :"corporate",
+    "b": "criminal",
+    "c": "environmental",
+    "d": "family",
+    "answer": "c"
+},
+{
+    "question" : "According to the legal maxim, __________ measures should be taken to prevent harm when a threat is identified, even before damage occurs",
+    "a": "reactive",
+    "b": "temporary",
+    "c": "minimal",
+    "d": "preventive",
+    "answer": "d"
+},
+{
+    "question" : "The principle Harm is to be eliminated also applies in __________ law, where individuals must avoid actions that could infringe upon the rights of others.",
+    "a": "criminal",
+    "b": "civil",
+    "c": "family",
+    "d": "tax",
+    "answer": "b"
+},
+{
+    "question" : "What is the meaning of the legal maxim “harm should be eliminated’?",
+    "a": "Any actions that may cause harm to individuals or the community should be prevented or eliminated.",
+    "b": "Any actions that may cause harm to individuals or the community should be supported or encouraged.",
+  
+    "answer": "a"
+},
+{
+    "question" : "The hardship becomes the cause (sabab) of facilitation (tashil) in the form of concession (rukhsah). Therefore which one of the following is the permissible reason for concession (rukhsah)?",
+    "a": "Travel, Concert, Coercion ",
+    "b": "Disease, Forgetfulness, Ignorance",
+    "c": "Deficiency, Vacation, Coercion",
+    "d": "Widespread Affliction, Travel, Vacation",
+    "answer": "b"
+},
+{
+    "question" : "This verse on Al-Baqarah 286  is regarding لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+    "a": "Shows us that Allah mercy towards His Servants",
+    "b": "Shows Allah is theMost Gracious and Merciful",
+    "c": "Allah is All-Knowing about His servants and He knows what is best for His servants",
+    "d": "Allah is indeed kind and forgiving towards those He has the right to punish.",
+    "answer": "c"
+},
+{
+    "question" : "Based on the 2 hadiths المشقة تجلب التيسير, we should choose the most difficult option as practiced by the Prophet.",
+    "a": "True",
+    "b": "False",
+   
+    "answer": "b"
+},
+{
+    "question" : "First-in-First-Out (FIFO) scheduling is:",
+    "a": "Non-preemptive scheduling",
+    "b": "Preemptive scheduling",
+    "c": "Fair share scheduling",
+    "d": "Deadline scheduling",
+    "answer": "a"
+},
+{
+    "question" : "Is it acceptable under the maxim Harm is to be eliminated for a government to ignore evidence of harmful effects from a new development project simply to boost the economy?",
+    "a": "Yes",
+    "b": "No",
+    
+    "answer": "b"
+},
+{
+    "question" : "There are 3 subcategories for the type of hardship. Which one of the following examples indicates “Hardship that lies between the two categories”?",
+    "a": "Doing evil to the parents of the person who had beaten him before with the intention of revenge",
+    "b": "A person in a rental contract can exit the contract if he is traveling (paying for unused benefits)",
+    "c": "A young man was lost in the middle of the forest and had no access to food except to hunt pigs to stay alive before being rescued",
+    "d": "Killing other people to satisfy their extreme hunger when they both were lost in the middle of the sea.",
+    "answer": "b"
+},
+{
+    "question" : "What are the 3 keywords in this المشقة تجلب التيسير? ",
+    "a": "Mashaqqah, Tajlib, Taysir ",
+    "b": "Rukhsah, Tashil, Salam",
+    "c": "Nafs, Aql, Nasl",
+    "d": "Mashaqqah, Tashil, Taysir ",
+    "answer": "a"
+},
+{
+    "question" : "Which of the following is NOT the type of facilities in المشقة تجلب التيسير ",
+     "I. An obligation is entirely dropped to the men with disabilities from jihad.",
+     "II. Tayammum can be substituted with water for wudu’ when the water resources are limited.",
+     "III An obligation is reduced when a traveler is allowed to pray two rak’ah prayers instead of four rak’ah ",
+     "IV. A Muslim is permissible to consume weed as long as he does not disturb other people. ",
+     "a": "II and I",
+    "b": "III and IV",
+    "c": "IV and IV",
+    "d": "II and IV",
+    "answer": "d"
+
