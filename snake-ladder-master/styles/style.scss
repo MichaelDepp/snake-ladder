@@ -1,0 +1,477 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap);
+
+$themeClr: #ececfc;
+$clr2 : #1f40e6;
+$clr3 : #d3d3d3;
+$clr4 : #6d7278;
+$clr5 : #4d4d4d;
+
+$mainfont : 1.7vh;
+$smalltext : 1.7vh;
+$smalltitle : 2vh;
+
+$contentMed : 2vh;
+
+$inter: 'Inter',san-serif;
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: $clr5;
+    font-family: $inter;
+    display: flex;
+    justify-content: center;
+}
+
+.question {
+    align-items: center;
+    justify-content: center;
+    .small-box {
+        width: 22vw;
+        height: 60vh;
+        margin-top: 10vh;
+        margin-right: 2vw;
+        background: white;
+        .message {
+            padding-top: 3vh;
+            font-size: $mainfont;
+            text-align: center;
+        }
+
+        #question-wrapper {
+            width: 16vw;
+            margin:0 auto;
+            #question-part {
+                margin-top: 2vh;
+                text-align: center;
+                font-weight: 500;
+                font-size: $contentMed;
+            }
+            label {
+                display: block;
+                padding-bottom: 2vh;
+                font-size: $smalltext;
+            }
+            .answer-wrapper {
+                text-align: center;
+                margin-top: 2vh;
+                #answer-btn {
+                    width: 6vw;
+                    height: 3.5vh;
+                    font-size: $smalltext;
+                    color: white;
+                    background-color: green;
+                    background-repeat:no-repeat;
+                    border: none;
+                    cursor:pointer;
+                    overflow: hidden;
+                    outline:none;
+                    &:disabled {
+                        opacity: 0.6;
+                        cursor: not-allowed;
+                    }
+                }
+            }
+            .remark-box {
+                display: block;
+                text-align: center;
+                
+                margin-top: 2vh;
+                button {
+                    margin-left: 5vw;
+                    width: 6vw;
+                    height: 3.5vh;
+                    font-size: $smalltext;
+                    color: black;
+                    background-color: lightskyblue;
+                    background-repeat:no-repeat;
+                    border: none;
+                    cursor:pointer;
+                    overflow: hidden;
+                    outline:none;
+                }
+            }
+        }
+    }
+}
+
+#forgithub {
+    width: 25vw;
+    text-align: justify;
+    font-weight: 500;
+    margin-bottom: 10vh;
+    font-size: $smalltext;
+}
+
+#first-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.8);
+    
+    .small-box {
+        width: 33vw;
+        height: 50vh;
+        background: white;
+
+        a {
+            margin-top: 10vh;
+            text-decoration: none;
+        }
+        
+        .instructions {
+            display: block;
+            width: 30vw;
+            margin: 0 auto;
+            p {
+                font-weight: 500;
+                font-size: $smalltext;
+            }
+        }
+
+        .close-btn {
+            text-align: right;
+            padding-right: 1.3vh;
+            padding-top: 1.3vh;
+            button {
+                background-color: Transparent;
+                background-repeat:no-repeat;
+                border: none;
+                cursor:pointer;
+                overflow: hidden;
+                outline:none;
+                img {
+                    width: 1.2vw;
+                }
+            }
+        }
+        .message {
+            text-align: center;
+            font-size: $mainfont;
+        }
+
+        #question-wrapper {
+            width: 20vw;
+            margin:0 auto;
+            #question-part {
+                text-align: center;
+                font-weight: 500;
+                font-size: $smalltext;
+            }
+            label {
+                display: block;
+                padding-bottom: 2vh;
+            }
+            .answer-wrapper {
+                text-align: center;
+                #answer-btn {
+                    width: 5vw;
+                    height: 3vh;
+                    color: white;
+                    background-color: green;
+                    background-repeat:no-repeat;
+                    border: none;
+                    cursor:pointer;
+                    overflow: hidden;
+                    outline:none;
+                    &:disabled {
+                        opacity: 0.6;
+                        cursor: not-allowed;
+                    }
+                }
+            }
+            .remark-box {
+                display: block;
+                text-align: center;
+                
+                margin-top: 3vh;
+                button {
+                    margin-left: 5vw;
+                    width: 6vw;
+                    height: 3.5vh;
+                    font-size: $smalltext;
+                    color: black;
+                    background-color: lightskyblue;
+                    background-repeat:no-repeat;
+                    border: none;
+                    cursor:pointer;
+                    overflow: hidden;
+                    outline:none;
+                }
+            }
+        }
+    }
+}
+
+#start-btn {
+    
+    width: 6vw;
+    height: 3.5vh;
+    font-size: $smalltext;
+    margin-top: 1vh;
+    color: white;
+    background-color: green;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+}
+
+#winner-announce {
+    .player-box {
+        display: flex;
+        padding-top: 2vh;
+        justify-content: center;
+        .player-name {
+            width: 15vw;
+            height: 3vh;
+            background: $clr3;
+            text-align: left;
+            padding-top: 1vh;
+            label {
+                font-weight: 500;
+                font-size: $smalltext;
+                padding-left: 1vw;
+            }
+        }
+        .player-posi {
+            width: 5vh;
+            height: 3vh;
+            background: cyan;
+            text-align: center;
+            padding-top: 1vh;
+            label {
+                font-weight: 500;
+            }
+        }
+    }
+    .btn-res {
+        display: block;
+        text-align: center;
+        #restart {
+            width: 6vw;
+            height: 3.5vh;
+            font-size: $smalltext;
+            margin-top: 2.5vh;
+            background-color: #8400ff;
+            background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
+            outline:none;
+            color: white;
+            text-decoration: none;
+        }
+    }  
+}
+
+#welcome {
+    .group-box {
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        margin-top: 1vh;
+        font-size: $smalltext;
+        text-decoration: none;
+    }
+}
+
+.main-content {
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    display: block;
+    img {
+        position: absolute;
+        height: 89vh;
+    }
+    table {
+        td {
+            vertical-align: top;
+            min-width: 8.5vh;
+            max-width: 8.5vh;
+            width: 8.5vh;
+            height: 8.5vh;
+            .circleholder {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-wrap: wrap;
+                .red {
+                    border: 0.2vh solid black;
+                    background-color: red;
+                    height: 1.5vh;
+                    border-radius:50%;
+                    width: 1.5vh;
+                    position: static;
+                    flex-shrink: 0;
+                }
+                .green {
+                    border: 0.2vh solid black;
+                    background-color: green;
+                    height: 1.5vh;
+                    border-radius:50%;
+                    width: 1.5vh;
+                    position: static;
+                    flex-shrink: 0;
+                }
+                .yellow {
+                    border: 0.2vh solid black;
+                    background-color: yellow;
+                    height: 1.5vh;
+                    border-radius:50%;
+                    width: 1.5vh;
+                    position: static;
+                    flex-shrink: 0;
+                }
+                .blue {
+                    border: 0.2vh solid black;
+                    background-color: blue;
+                    height: 1.5vh;
+                    border-radius:50%;
+                    width: 1.5vh;
+                    position: static;
+                    flex-shrink: 0;
+                }
+                .pink {
+                    border: 0.2vh solid black;
+                    background-color: pink;
+                    height: 1.5vh;
+                    border-radius:50%;
+                    width: 1.5vh;
+                    position: static;
+                    flex-shrink: 0;
+                }
+                .black {
+                    border: 0.2vh solid black;
+                    background-color: black;
+                    height: 1.5vh;
+                    border-radius:50%;
+                    width: 1.5vh;
+                    position: static;
+                    flex-shrink: 0;
+                }
+            }
+        }
+    }
+}
+
+.right-block {
+    display: block;
+    padding-top: 7vh;
+    margin-left: 2vw;
+    .player {
+        
+        width: 22vw;
+        height: 60vh;
+        background: white;
+        overflow: auto;
+        .current {
+            padding-top: 2vh;
+            text-align: center;
+            label {
+                font-weight: 400;
+                font-size: $smalltitle;
+                color: blueviolet;
+            }
+            .position {
+                display: flex;
+                font-weight: 700;
+                justify-content: center;
+                #current-player {
+                    text-align: left;
+                    right: 0;
+                    width: 15vw;
+                    font-size: $contentMed;
+                }
+                #current-posi {
+                    text-align: center;
+                    right: 0;
+                    padding-left: 2vw;
+                    font-size: $contentMed;
+                }
+            }
+        }
+        .total {
+            text-align: center;
+            label {
+                font-weight: 400;
+                font-size: $smalltitle;
+                color: blueviolet;
+            }
+
+            .player-box {
+                display: flex;
+                padding-top: 2vh;
+                justify-content: center;
+                .player-name {
+                    width: 15vw;
+                    height: 3vh;
+                    background: $clr3;
+                    text-align: left;
+                    padding-top: 1vh;
+                    label {
+                        font-weight: 500;
+                        font-size: $smalltext;
+                        padding-left: 1vw;
+                    }
+                }
+                .player-posi {
+                    width: 5vh;
+                    height: 3vh;
+                    background: cyan;
+                    text-align: center;
+                    padding-top: 1vh;
+                    label {
+                        font-size: $smalltext;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
+    .roll-dice {
+        margin-top: 2vh;
+        text-align: center;
+        .dice-box {
+            img {
+                width: 8vw;
+            }
+        }
+        .control {
+            button {
+                width: 6vw;
+                height: 3.5vh;
+                font-size: $smalltext;
+                margin-top: 1vh;
+                color: white;
+                background-color: red;
+                background-repeat:no-repeat;
+                border: none;
+                cursor:pointer;
+                overflow: hidden;
+                outline:none;
+                &:disabled {
+                    opacity: 0.6;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+}

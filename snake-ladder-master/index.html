@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <title>Snake & Ladder</title>
+    <link rel='icon' href='./assets/favicon.png' type='image/x-icon'>
+</head>
+
+<body id="container">
+    <!-- Background Music -->
+    <audio id="background-music" loop>
+        <source src="./assets/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Music Toggle Button -->
+    <div style="position: fixed; top: 10px; right: 10px; z-index: 9999;">
+        <button id="music-toggle" onclick="toggleMusic()">Play Music</button>
+    </div>
+
+    <div class="question">
+        <div class="small-box" id="question-small-box">
+            <div class="message">
+                <h1 id="question-for">Question for Michael</h1>
+            </div>
+            <div id="question-wrapper">
+                <p id="question-part"></p>
+                <label><input type="radio" name="mcq" value="a">System calls</label>
+                <label><input type="radio" name="mcq" value="b">API</label>
+                <label><input type="radio" name="mcq" value="c">Library</label>
+                <label><input type="radio" name="mcq" value="d">Assembly Instruction</label>
+                <div class="answer-wrapper">
+                    <button id="answer-btn" onclick="getAnswer()">Answer</button>
+                </div>
+                <div class="remark-box">
+                    <label id="remark" style="display: none;">Correct Answer, You Can Roll The Dice</label>
+                    <button id="proceed-btn" style="display: none;" onclick="proceed()">Proceed</button>
+                    <button id="next-btn" style="display: none;" onclick="nextPlayer()">Next Player</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="first-box">
+        <div class="small-box" style="display: none;" id="winner-announce">
+            <div class="close-btn">
+                <button onclick="closeWinner()"><img src="./assets/close.png"></button>
+            </div>
+            <div class="message" id="announce-box">
+                <h1 id="winner-name">Winner Is </h1>
+            </div>
+            <div class="btn-res">
+                <button id="restart" onclick="location.reload();">Restart Game</button>
+            </div>
+        </div>
+        <div class="small-box" id="welcome">
+            <div class="close-btn">
+                <button onclick="closeWelcome()"><img src="./assets/close.png"></button>
+            </div>
+            <div class="message">
+                <h1>Welcome to Snake & Ladder Game</h1>
+                <div class="group-box">
+                    <p id="forgithub">This is a simple online quiz game developed in a board game concept. The board
+                        game chosen for this is snake and ladder. This entire project is developed in html, scc, and
+                        javascript. The questions, and players can be as much as you want. The tiles also are
+                        auto=generated, so you can edit the code to generate more tiles but the snake and ladder image
+                        need to be adjusted and the traps, and climbs information need to edit before run.</p>
+                </div>
+                <a href="https://github.com/MichaelDepp" target="_blank">Developed By Michael</a>
+            </div>
+        </div>
+        <div class="small-box" style="display: none;" id="instruction">
+            <div class="close-btn">
+                <button onclick="closeInstruction()"><img src="./assets/close.png"></button>
+            </div>
+            <div class="message">
+                <h1>Instruction to Snake & Ladder Game</h1>
+                <div class="instructions">
+                    <p>1. First, enter the player names and start the game</p>
+                    <p>2. Maximum 6 Players Only Allowed</p>
+                    <p>3. Once Game started, the player need to answer the mcq question</p>
+                    <p>4. Only, if he/she answers the question correctly will be allowed to roll the dice</p>
+                    <p>5. If player answer the question wrongly, he/she have to miss their turn</p>
+                    <p>6. The player who reach the 100th box first will be the winner</p>
+                </div>
+                <a href="https://github.com/MichaelDepp" target="_blank">Developed By Michael</a>
+            </div>
+        </div>
+        <div class="small-box" style="display: none;" id="addplayer">
+            <div class="message">
+                <h1 style="margin-top: 8vh;">Add Players</h1>
+                <div class="added-player">
+                    <label id="added-players"></label>
+                </div>
+                <div id="adding">
+                    <input type="text" id="player-name">
+                    <input style="margin-top: 2vh;" id="player-submit" type="submit" value="Add"
+                        onclick="playertrigger()">
+                    <p id="warning" style="display: none;">Invalid! Enter Valid Name!</p>
+                    <p id="left-player">6 Players Left</p>
+                </div>
+                <div id="start-game">
+                    <button id="start-btn" disabled onclick="launchgame()">Start Game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div id="board">
+            <img src="./assets/snake-ladder.png">
+            <table id="table-board">
+
+            </table>
+        </div>
+        <div class="right-block">
+            <div class="player">
+                <div class="current">
+                    <label>Current Player</label>
+                    <div class="position">
+                        <p id="current-player"></p>
+                        <p id="current-posi"></p>
+                    </div>
+                </div>
+                <div class="total">
+                    <label>Total Player</label>
+                    <div id="total-player-display">
+                    </div>
+                </div>
+            </div>
+            <div class="roll-dice">
+                <div class="dice-box">
+                    <img id="dice" src="./assets/dice-1.png">
+                </div>
+                <div class="control">
+                    <button id="btn-roll" onclick="dicerollvalue()" disabled>Roll Dice</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function playertrigger() {
+            var pname = document.getElementById('player-name')
+
+            pname = pname.value.trim()
+            var warning = document.getElementById('warning')
+
+            if (pname == "") {
+                warning.style.color = 'red'
+                warning.style.display = 'block'
+                document.getElementById('player-name').value = ""
+            } else {
+                warning.style.display = 'none'
+                addPlayer(pname)
+            }
+        }
+
+        function closeWelcome() {
+
+            document.getElementById('welcome').style.display = "none";
+            document.getElementById('instruction').style.display = "block";
+        }
+
+        function closeInstruction() {
+
+            document.getElementById('instruction').style.display = "none";
+            document.getElementById('addplayer').style.display = "block";
+        }
+
+        function closeAddPlayer() {
+
+            document.getElementById('addplayer').style.display = "none";
+            document.getElementById('first-box').style.display = "none";
+
+        }
+
+        function closeWinner() {
+            document.getElementById('winner-announce').style.display = "none";
+            document.getElementById('first-box').style.display = "none";
+        }
+    </script>
+    <script src="./js/index.js"></script>
+    <script src="./question.json"></script>
+    <script>
+        var music = document.getElementById("background-music");
+        var musicToggleBtn = document.getElementById("music-toggle");
+        var isPlaying = false;
+
+        function toggleMusic() {
+            if (!isPlaying) {
+                music.play();
+                musicToggleBtn.innerText = "Pause Music";
+                isPlaying = true;
+            } else {
+                music.pause();
+                musicToggleBtn.innerText = "Play Music";
+                isPlaying = false;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
