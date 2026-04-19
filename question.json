@@ -1,402 +1,116 @@
 [
 {
-    "question" : "What is operating system?",
-    "a": "Collection of programs that manages hardware resources",
-    "b": "Link to interface the hardware and application program",
-    "c": "System service provider to the application program",
-    "d": "All of the mentioned",
-    "answer": "d"
+    "question" : "Ano ang ibig sabihin ng pamagat na Noli Me Tangere??",
+    
+    "answer": "Touch Me Not"
 },
 {
-    "question" : "To access the services of operating system, the interface is provided by the:",
-    "a": "System calls",
-    "b": "API",
-    "c": "Library",
-    "d": "Assembly Instruction",
-    "answer": "a"
+    "question" : "Sino ang bida sa Noli Me Tangere?",
+    
+    "answer": "Si Crisostomo Ibarra"
 },
 {
-    "question" : "Which one of the following is not true?",
-    "a": "Kernel is the program that constitues the central core of the operating system",
-    "b": "Kernel is the first part of operating system to load into memory during booting",
-    "c": "Kernel is made of various modules which can not be loaded in running operating system",
-    "d": "Kernel remains in the memory during the entire computer session",
-    "answer": "c"
+    "question" : "Ano ang huling sinambit ni Dr. Jose Rizal bago siya tuluyang namaalam?"
+
+    "answer": "Consummatum est"
+
 },
 {
-    "question" : "Which one of the following error will be handle by the operating system?",
-    "a": "Power failure",
-    "b": "Lack of paper in printer",
-    "c": "Connection failure in the network",
-    "d": "All of the mentioned",
-    "answer": "d"
+    "question" : "Kanino inialay ni Jose Rizal ang nobelang El Filibusterismo?",
+   
+    "answer": "Inialay niya ito sa tatlong paring martir na GOMBURZA (Gomez, Burgos, at Zamora) na binitay noong 1872."
 },
 {
-    "question" : "The main function of the command interpreter is:",
-    "a": "To get and execute the next user-specified command",
-    "b": "To provide the interface between the API and application program",
-    "c": "To handle the files in operating system",
-    "d": "None of the mentioned",
-    "answer": "a"
+    "question" : "Sino ang tinaguriang 'Tagapagligtas' ng Noli dahil sa pagpapahiram ng pera para maipalimbag ito?",
+    
+    "answer": "Si Maximo Viola, ang kaibigan ni Rizal na nagpahiram ng 300 piso para sa unang 2,000 sipi."
 },
 {
-    "question" : "By operating system, the resource management can be done via:",
-    "a": "Time division multiplexing",
-    "b": "Space division multiplexing",
-    "c": "Both (a) and (b)",
-    "d": "None of the mentioned",
-    "answer": "c"
+    "question" : "Ano ang pagkakaiba ng karakter ni Simoun sa El Fili kay Ibarra sa Noli?",
+    
+    "answer": "Si Simoun ay si Ibarra rin, ngunit kung si Ibarra ay mapangarapin at naniniwala sa reporma, si Simoun naman ay mapaghimagsik at puno ng pait."
 },
 {
-    "question" : "If a process fails, most operating system write the error information to a:",
-    "a": "Log file",
-    "b": "Another running process",
-    "c": "New file",
-    "d": "None of the mentioned",
-    "answer": "a"
+    "question" : "Nilaga may kapag tiyaga may"
+
+    "answer" : "Kapag may tiyaga, May nilaga"
 },
 {
-    "question" : "Which facility dynamically adds probes to a running system, both in user processes and in the kernel?",
-    "a": "DTrace",
-    "b": "DLocate",
-    "c": "DMAP",
-    "d": "DAdd",
-    "answer": "a"
+    "question" : "Ano ang pangunahing tema ng Noli Me Tangere?",
+    
+    "answer": "Inilalantad nito ang 'kanser ng lipunan'—partikular na ang pang-aabuso ng mga prayle at ang korapsyon sa pamahalaang Espanyol."
 },
 {
-    "question" : "Which one of the following is NOT a real time operating system?",
-    "a": "VxWorks",
-    "b": "Windows CE",
-    "c": "RTLinux",
-    "d": "Palm OS",
-    "answer": "d"
+    "question" : "Ano ang sinisimbolo ng karakter ni Sisa sa mga nobela?",
+    
+    "answer": "Sinasagisag ni Sisa ang Inang Bayan na nagdurusa at nawalan ng bait dahil sa pagkawala ng kanyang mga anak at kalupitan ng mga nasa kapangyarihan."
 },
 {
-    "question" : "__________ is built directly on the hardware.",
-    "a": "Computer environment",
-    "b": "Application software",
-    "c": "Database system",
-    "d": "Operating system",
-    "answer": "d"
+    "question" : "Sa El Filibusterismo, ano ang huling plano ni Simoun para simulan ang rebolusyon?",
+    
+    "answer": "Nagplano siyang magpasabog ng isang lampara sa isang piging ng kasal, na magsisilbing hudyat ng pagsalakay sa Maynila."
 },
 {
-    "question" : "Termination of a process can be due to?",
-    "a": "Fatal error",
-    "b": "Killed by another process",
-    "c": "Normal exit",
-    "d": "All of the mentioned",
-    "answer": "d"
+    "question" : "Bakit itinuturing na mas 'madilim' o 'mabigat' ang El Fili kaysa sa Noli?",
+    
+    "answer": "Dahil ito ay nakatuon sa paghihiganti at galit, habang ang Noli ay may halong romansa at pag-asa para sa pagbabago."
 },
 {
-    "question" : "The operating system creates __________ from the physical computer.",
-    "a": "Virtual space",
-    "b": "Virtual computers",
-    "c": "Virtual device",
-    "d": "None of the mentioned",
-    "answer": "b"
+    "question" : "Ano ang naging epekto ng dalawang nobelang ito sa mga Pilipino?",
+    
+    "answer": "Nagising nito ang damdaming makabayan ng mga Pilipino at naging mitsa ng Himagsikang Pilipino laban sa Espanya."
 },
 {
-    "question" : "Which is the first program run on a computer when the computer boots up?",
-    "a": "Operating system",
-    "b": "Application software",
-    "c": "System software",
-    "d": "All of the mentioned",
-    "answer": "a"
+    "question" : "Ano ang palayaw ni Jose Rizal na ginamit niya bilang awtor?",
+    
+    "answer": "Pepe"
 },
 {
-    "question" : "Which is the layer of a computer system between the hardware and the user program?",
-    "a": "Operating environment",
-    "b": "Operating system",
-    "c": "System environment",
-    "d": "None of the mentioned",
-    "answer": "b"
+    "question" : "Sino ang babaeng katipan ni Ibarra na sumasagisag sa kababaihang Pilipina?",
+    
+    "answer": "Maria"
 },
 {
-    "question" : "The primary purpose of an operating system is:",
-    "a": "To make the most efficient use of the computer hardware",
-    "b": "To allow people to use the computer",
-    "c": "To keep systems programmers employed",
-    "d": "To make computers easier to use",
-    "answer": "a"
+    "question" : "Saan bansa ipinalimbag ang nobelang Noli Me Tangere?",
+    
+    "answer": "Alemanya"
 },
 {
-    "question" : "What should be the extension to execute files?",
-    "a": "exe",
-    "b": "bat",
-    "c": "com",
-    "d": "All of the mentioned",
-    "answer": "d"
+    "question" : "Ano ang tawag sa mga Kastilang pari na kalaban ni Ibarra?",
+    
+    "answer": "Prayle"
 },
 {
-    "question" : "Which file keeps commands to execute automatically when OS is started?",
-    "a": "command.com",
-    "b": "any batch file",
-    "c": "autoexec.bat",
-    "d": "config.sys",
-    "answer": "c"
+    "question" : "Sino ang kurang Pransiskano na tunay na ama ni Maria Clara?",
+   
+    "answer": "Padre Damaso"
 },
 {
-    "question" : "Which is NOT the function of the Operating System?",
-    "a": "Memory management",
-    "b": "Disk management",
-    "c": "Application management",
-    "d": "Virus protection",
-    "answer": "d"
+    "question" : "Ano ang ibig sabihin ng salitang 'Filibustero' sa Tagalog?",
+   
+    "answer": "Subersibo"
 },
 {
-    "question" : "The Operating System manages:",
-    "a": "Memory",
-    "b": "Processes",
-    "c": "Disk and I/O devices",
-    "d": "All of the mentioned",
-    "answer": "d"
+    "question" : "Sino ang matapat na kaibigan ni Ibarra na namatay sa lawa?",
+    
+    "answer": "Si Elias"
 },
 {
-    "question" : "The chunks of a memory are known as:",
-    "a": "Sector",
-    "b": "Offset",
-    "c": "Page",
-    "d": "Frame",
-    "answer": "d"
+    "question" : "Saan bansa ipinalimbag ang nobelang El Filibusterismo?",
+    
+    "answer": "Belhika"
 },
 {
-    "question" : "Command Interpreter is also known as:",
-    "a": "Prompt",
-    "b": "Shell",
-    "c": "Command",
-    "d": "DOS Prompt",
-    "answer": "b"
+    "question" : "Anong bayan ang naging tagpuan ng kuwento sa Noli Me Tangere?",
+   
+    "answer": "San Diego"
 },
 {
-    "question" : "Which of the follow are System Programming Language?",
-    "a": "C",
-    "b": "PL/360",
-    "c": "Pascal",
-    "d": "All of mentioned",
-    "answer": "d"
+    "question" : "Sino ang paring tumanggap sa huling kumpisal ni Simoun bago ito mamatay?",
+   
+    "answer": "Florentino"
 },
 {
-    "question" : "Which of the following resources must be protected by the Operating System?",
-    "a": "I/O",
-    "b": "Memory",
-    "c": "CPU",
-    "d": "All of mentioned",
-    "answer": "d"
-},
-{
-    "question" : "First-in-First-Out (FIFO) scheduling is:",
-    "a": "Non-preemptive scheduling",
-    "b": "Preemptive scheduling",
-    "c": "Fair share scheduling",
-    "d": "Deadline scheduling",
-    "answer": "a"
-},
-{
-    "question" : "Which of the following memory unit that processor can access more rapidly?",
-    "a": "Main memory",
-    "b": "Virtual memory",
-    "c": "Cache memory",
-    "d": "Read Only memory",
-    "answer": "c"
-},
-{
-    "question" : "Which one of the following is NOT the function of Operating System?",
-    "a": "Resource management",
-    "b": "File management",
-    "c": "Networking",
-    "d": "Processor management",
-    "answer": "c"
-},
-{
-    "question" : "Paging is implemented in?",
-    "a": "Operating system",
-    "b": "Hardware",
-    "c": "Software",
-    "d": "All of the mentioned",
-    "answer": "b"
-},
-{
-    "question" : "A process is __________ ",
-    "a": "Program in main memory",
-    "b": "Program in cache memory",
-    "c": "Program in secondary storage",
-    "d": "Program in execution",
-    "answer": "d"
-},
-{
-    "question" : "If the displayed system time and date is wrong, use can reset it using:",
-    "a": "Write",
-    "b": "Calender",
-    "c": "Write file",
-    "d": "Control panel",
-    "answer": "d"
-},
-{
-    "question" : "Which is NOT an application software?",
-    "a": "Windows NT",
-    "b": "Page Maker",
-    "c": "WinWord XP",
-    "d": "Photoshop",
-    "answer": "a"
-},
-{
-    "question" : "What program runs first afer computer is booted and loaded GUI?",
-    "a": "Desktop Manager",
-    "b": "File Manager",
-    "c": "Windows Explorer",
-    "d": "Authentication",
-    "answer": "d"
-},
-{
-    "question" : "Linux is a(n) __________ operating system.",
-    "a": "Open source",
-    "b": "Microsoft",
-    "c": "Windows",
-    "d": "Mac",
-    "answer": "a"
-},
-{
-    "question" : "Which mode loads minimal set of drivers when starting Windows?",
-    "a": "Safe Mode",
-    "b": "Normal Mode",
-    "c": "VGA Mode",
-    "d": "Network Support Mode",
-    "answer": "a"
-},
-{
-    "question" : "MacOS is based on the __________ operating system",
-    "a": "Windows",
-    "b": "Linux",
-    "c": "Unix",
-    "d": "CMOS",
-    "answer": "c"
-},
-{
-    "question" : "The Basic Input Output System (BIOS) resides in:",
-    "a": "RAM",
-    "b": "ROM",
-    "c": "CPU",
-    "d": "Memory cache",
-    "answer": "b"
-},
-{
-    "question" : "Recently deleted files are stored in:",
-    "a": "Desktop",
-    "b": "Taskbar",
-    "c": "Recycle bin",
-    "d": "My computer",
-    "answer": "c"
-},
-{
-    "question" : "All of the following are TRUE regarding Virtual Memory EXCEPT:",
-    "a": "Any amount of RAM can be allocated to virtual memory",
-    "b": "The setting for the amount of hard disk drive space to allocate virtual memory can be manually changed",
-    "c": "This temporary storage is called the swap file or page file",
-    "d": "Virtual memory is the physical space on the hard drive",
-    "answer": "a"
-},
-{
-    "question" : "Which of the following is suitable after user installs new drivers?",
-    "a": "Shutdown",
-    "b": "Restart",
-    "c": "Sleep",
-    "d": "Hibernate",
-    "answer": "b"
-},
-{
-    "question" : "Which of the following requires a device driver?",
-    "a": "Register",
-    "b": "Cache",
-    "c": "Main memory",
-    "d": "Disk",
-    "answer": "d"
-},
-{
-    "question" : "Which of the following scheduling algorithms is non-preemptive?",
-    "a": "Round robin",
-    "b": "FIFO",
-    "c": "Multilevel queue scheduling",
-    "d": "Multilevel queue scheduling with feedback",
-    "answer": "b"
-},
-{
-    "question" : "In operating system, a software may triggers an interrupt executing a special operation it is called as?",
-    "a": "System call",
-    "b": "Application call",
-    "c": "Software call",
-    "d": "Kernel call",
-    "answer": "a"
-},
-{
-    "question" : "Quad core processors are the processors having:",
-    "a": "1 processor",
-    "b": "2 processors",
-    "c": "3 processors",
-    "d": "4 processors",
-    "answer": "d"
-},
-{
-    "question" : "DMA is the part of computer system which is the abbreviation of?",
-    "a": "Dynamic memory address",
-    "b": "Direct memory access",
-    "c": "Dynamic memory access",
-    "d": "Direct memory address",
-    "answer": "b"
-},
-{
-    "question" : "One that is NOT an operating system mode is:",
-    "a": "User mode",
-    "b": "Kernel mode",
-    "c": "Supervisor mode",
-    "d": "System mode",
-    "answer": "d"
-},
-{
-    "question" : "One word memory storage is the collection of?",
-    "a": "2 bytes",
-    "b": "4 bytes",
-    "c": "7 bytes",
-    "d": "8 bytes",
-    "answer": "b"
-},
-{
-    "question" : "Secondary memory of the computer system is also called:",
-    "a": "Non-volatile",
-    "b": "Volatile",
-    "c": "Reserved",
-    "d": "Small",
-    "answer": "a"
-},
-{
-    "question" : "Main memory of the computer system is also called?",
-    "a": "Non-volatile",
-    "b": "Volatile",
-    "c": "Reserved",
-    "d": "Large",
-    "answer": "b"
-},
-{
-    "question" : "Example of an open source operating system is:",
-    "a": "Unix",
-    "b": "Linux",
-    "c": "Windows",
-    "d": "Both (a) and (b)",
-    "answer": "d"
-},
-{
-    "question" : "Scheduling of threads are done by?",
-    "a": "Input",
-    "b": "Output",
-    "c": "Operating System",
-    "d": "Memory",
-    "answer": "c"
-},
-{
-    "question" : "Dual mode of Operating System has:",
-    "a": "1 mode",
-    "b": "2 modes",
-    "c": "3 modes ",
-    "d": "4 modes ",
-    "answer": "b"
+    
 }
 ]
